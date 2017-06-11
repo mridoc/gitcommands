@@ -1,0 +1,11 @@
+right click on folder and "Git Bash Here"
+git init
+git add *
+git status
+git commit -m 'version 0.0.1'
+echo "# gitcommands" >> README.md
+git init
+git add README.md
+git commit -m "version 0.0.1"
+git remote add origin https://github.com/mridoc/gitcommands.git
+git push -u origin master
